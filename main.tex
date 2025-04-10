@@ -137,8 +137,7 @@
       {City of Glendale}{Glendale, CA}
       \resumeItemListStart
         \resumeItem{Streamlined customer registration and membership management by efficiently utilizing RecTrac software, ensuring accurate data input and secure processing of transactions (cash, card, and checks).}
-        \resumeItem{Provided technical and operational support for patron data management and event scheduling, enhancing the user experience through organized digital record-keeping}
-        \resumeItem{Managed logistical aspects of facility events, including setup, coordination, and technology operation}
+        \resumeItem{Provided technical and operational support for patron data management and event scheduling, enhancing the user experience through organized digital record-keeping.}
       \resumeItemListEnd
       
 % -----------Multiple Positions Heading-----------
@@ -149,14 +148,18 @@
 %          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
 %     \resumeItemListEnd
 %    \resumeSubHeadingListEnd
+
+
+
+    %\resumeSubheading
+     % {AI Member}{Aug 2024 -- Present}
+      %{ACM, Association for Computer Machinery}{Fullerton, CA}
+      %\resumeItemListStart
+       % \resumeItem{Collaborated with peers on AI workshops, coding competitions, and speaker events to enhance technical and professional development.}
+    %\resumeItemListEnd
 %-------------------------------------------
 
-    \resumeSubheading
-      {ACM, Association for Computer Machinery}{Aug 2024 -- Present}
-      {California State University, Fullerton}{Fullerton, CA}
-      \resumeItemListStart
-        \resumeItem{Driving innovation and collaboration in technology through ACM at CSUF, engaging in software development, technical workshops, and networking with industry professionals.}
-    \resumeItemListEnd
+
 
 
   \resumeSubHeadingListEnd
@@ -168,30 +171,34 @@
           \resumeProjectHeading
           {\textbf{Automated Trading System For ETFs} $|$ {\underline{github.com/chrisalpuerto/Stonks-Project} }}{Aug 2024 -- Dec 2024}
           \resumeItemListStart
-            \resumeItem{Designed and implemented the trading logic and backtesting engine for an automated trading system for FNGU and FNGD, collaborating with a team of 4 engineers to optimize execution strategies.}
-            \resumeItem{Implemented technical indicators such as Simple Moving Average (SMA), Bollinger Bands (BB), and MACD to generate buy/sell signals based on market trends.}
-            \resumeItem{developing a backtesting engine to simulate trades with a mock \$100K balance, tracking key performance metrics (e.g., gains/losses, percentage return) and logging detailed transaction data for analysis}
-            \resumeItem{Created a user-friendly interface for downloading historical price data, visualizing price changes over a user-defined date range, and backtesting trading strategies.}
-            \resumeItem{Made using: \emph{Python, JavaScript, Flask, Yahoo Finance API, AWS }}
+            \resumeItem{Developed an automated trading system for FNGU and FNGD, designing core trading logic and backtesting engine capable of simulating trades with a \$100K virtual balance}
+            \resumeItem{Integrated trading strategies using \textbf{Python}, including Simple Moving Average (SMA), Bollinger Bands (BB), and MACD to generate dynamic buy/sell signals, using \textbf{Yahoo Finance API} to base on real-time market conditions.}
+            \resumeItem{Developed and deployed a full-stack web application using \textbf{Flask} (backend) and \textbf{JavaScript / HTML}  (frontend) on \textbf{Heroku}, enabling users to visualize historical ETF price data, select custom date ranges, and backtest trading strategies. Parsed local \textbf{JSON} files to load price history and auomate daily data updates.}
+          \resumeItemListEnd
+        \resumeProjectHeading
+          {\textbf{MNIST Digit Recognizer} $|$ \underline{https://github.com/chrisalpuerto/MNIST-Digit-Recognizer}}{March 2025 -- Present}
+          \resumeItemListStart
+            \resumeItem{Built a digit recognition model using \textbf{Google Colab / Jupyter Notebook} and \textbf{Python} using the MNIST dataset, applying convolutional neural networks (CNNs) with \textbf{PyTorch} 
+            to achieve high classification accuracy}
+            \resumeItem {Applied \textbf{NumPy} for efficient data manipulation and \textbf{Matplotlib} for visualizing training metrics and performance. Enhanced model performance through data preprocessing, tuning, and evaluation on test data.} 
+          \resumeItemListEnd
+            \resumeProjectHeading
+          {\textbf{FinTrack} $|$ \underline{github.com/chrisalpuerto/FinTrack}}{Jan 2025 -- Present}
+          \resumeItemListStart
+            \resumeItem{Developed a full-stack financial tracking system using that provides users with AI-driven financial insights with \textbf{OpenAI API} using \textbf{Next.js (React)} for the frontend and \textbf{FastAPI (Python)} for the backend.}
+            \resumeItem{Designed and integrated a \textbf{MySQL} database with FastAPI using \textbf{SQLAlchemy}, handling financial insights and secure data management.}
+            \resumeItem{Implemented \textbf{RESTful} API endpoints for \textbf{CRUD} operations, enabling real-time data retrieval and updates, optimizing performance and scalability.}
           \resumeItemListEnd
       \resumeProjectHeading
           {\textbf{HandAutoMation} $|$ \underline{github.com/chrisalpuerto/HandAutoMation}}{March 2025 -- Present}
           \resumeItemListStart
-            \resumeItem{Developed a real-time hand gesture recognition system that interfaces with Ableton Live using Open Sound Control (OSC) to enable gesture-based music production.}
-            \resumeItem{Engineered a computer vision pipeline leveraging OpenCV and MediaPipe to detect and track 21 hand landmarks, focusing on the index finger and thumb for real-time distance measurement.}
-            \resumeItem{Implemented a Euclidean distance-based tracking algorithm to quantify hand movements and dynamically control parameters such as volume, filter cutoff, and effects modulation in Ableton Live.}
-            \resumeItem{Designed a bidirectional OSC communication layer that transmits gesture-derived numerical values from Python to Ableton Live via an OSC-to-MIDI bridge, enabling seamless integration with DAWs and music hardware.}
-            \resumeItem{{Made using: }\emph{Python, OpenCV, MediaPipe, Python OSC, TensorFlow}}
+            \resumeItem{Developed a real-time hand gesture recognition system using \textbf{Python}, \textbf{OpenCV}, and \textbf{MediaPipe}, enabling gesture-based control of sound and audio parameters in Ableton Live.}
+            \resumeItem{Integrated \textbf{TensorFlow} models for gesture classification, enabling dynamic and responsive mappings between physical movement and sound manipulation.}
+            \resumeItem{Implemented a bidirectional Open Source Control \textbf{(OSC)} communication layer to transmit gesture data to Ableton via OSC-to-MIDI bridge, providing low-latency interaction with DAWs and external music hardware.}
           \resumeItemListEnd
 
-          \resumeProjectHeading
-          {\textbf{FinTrack} $|$ \underline{github.com/chrisalpuerto/FinTrack}}{Jan 2025 -- Present}
-          \resumeItemListStart
-            \resumeItem{Developed a full-stack financial tracking system using Next.js (React) for the frontend and FastAPI (Python) for the backend, ensuring a seamless user experience.}
-            \resumeItem{Designed and integrated a MySQL database with FastAPI using SQLAlchemy, handling financial insights and secure data management.}
-            \resumeItem{Implemented RESTful API endpoints for CRUD operations, enabling real-time data retrieval and updates, optimizing performance and scalability.}
-            \resumeItem{Made using: \emph{JavaScript, Python, React/Next.js, FastAPI, MySQL, SQLAlchemy, OpenAI API, HTMl}}
-          \resumeItemListEnd
+ 
+
     \resumeSubHeadingListEnd
 
 
@@ -203,7 +210,7 @@
     \small{\item{
      \textbf{Languages}{: Python, JavaScript, C++, SQL (Postgres, MongoDB, MySQL, SQLAlchemy), Java, HTML/CSS} \\
      \textbf{Frameworks}{: React, Node.js, Next.js, Flask, FastAPI} \\
-     \textbf{Developer Tools}{: Git, GitHub Docker, VS Code, Visual Studio, Jupyter Notebook, PyCharm } \\
+     \textbf{Developer Tools}{: Git, GitHub Docker, VS Code, Visual Studio, Jupyter Notebook, Google Colab } \\
      \textbf{Libraries}{: pandas, NumPy, Matplotlib, Plotly, Scikit-Learn, TensorFlow/PyTorch, C++ STL}
     }}
  \end{itemize}

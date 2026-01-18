@@ -1,2 +1,2 @@
 ## Christopher Alpuerto's resume 2025
-![Resume](Public/ChrisAlpuertoResume.png)
+![Resume](Public/Christopher_AlpuertoResume2026.png)

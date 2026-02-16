@@ -118,9 +118,9 @@
 
 \begin{center}
     \textbf{\Huge \scshape Christopher Alpuerto} \\ \vspace{1pt}
-    \small 323-384-3817 $|$ \href{mailto:x@x.com}{\underline{chrisalpuerto27@gmail.com}} $|$ 
-    \href{https://linkedin.com/in/...}{\underline{linkedin.com/in/christopheralpuerto}} $|$
-    \href{https://github.com/...}{\underline{github.com/chrisalpuerto}}
+    \small 323-384-3817 $|$ \href{mailto:chrisalpuerto27@gmail.com}{\underline{chrisalpuerto27@gmail.com}} $|$ 
+    \href{https://linkedin.com/in/christopheralpuerto}{\underline{linkedin.com/in/christopheralpuerto}} $|$
+    \href{https://github.com/chrisalpuerto}{\underline{github.com/chrisalpuerto}}
 \end{center}
 
 
@@ -135,26 +135,20 @@
 %-----------COURSEWORK-----------
 \section{Relavent Coursework}
 \resumeSubHeadingListStart
-\resumeCoursework{Advanced Data Structures \& Algorithms, Algorithm Engineering, Software Engineering, Operating Systems, Artificial Intelligence, Python, Advanced C++, Linear Algebra}
+\resumeCoursework{Software Engineering, Cloud Engineering, Advanced Data Structures \& Algorithms, Algorithm Engineering, Operating Systems, Artificial Intelligence, Python, Advanced C++}
 \resumeSubHeadingListEnd
 
 %-----------EXPERIENCE-----------
 \section{Experience}
   \resumeSubHeadingListStart
     
-    \resumeSubheading
-      {Co-Founder \& Lead Engineer}{July 2025 -- Present}
-      {HoopTuber}{Los Angeles, CA}
-      \resumeItemListStart
-        \resumeItem{Built and deployed a full-stack basketball app, serving \textbf{400}+ waitlist signups and \textbf{50+} daily beta users, validating the system's scalability and early market demand.}
-        \resumeItem{Collaborated with co-founder using agile-style planning (Jira boards, sprint tasks, PR reviews) to prioritize features and track releases.}
-        \resumeItem{Owned backend architecture and cloud deployment, enabling secure uploads, job tracking, and subscription workflows.}
-      \resumeItemListEnd
       \resumeSubheading
-      {Facility Attendant}{May 2023 -- Present}
-      {City of Glendale}{Glendale, CA}
+      {Software Engineer}{July 2025 -- Present}
+      {Teamlead (part-time)}{Los Angeles, CA}
       \resumeItemListStart
-        \resumeItem{Managed customer registration and membership data within a NoSQL style RecTrac database, ensuring accurate resident records, secure transactions, and real-time updates across City of Glendale systems.}
+        \resumeItem{Developed and maintained production backend services using \textbf{FastAPI} and \textbf{TypeScript}, implementing secure authentication, scalable API design, and reliable state management to support core platform workflows.}
+        \resumeItem{Collaborated in a team of 3 to ship features end-to-end, writing clean, testable code, performing PR reviews, and deploying containerized services via \textbf{Docker} and \textbf{CI/CD} pipelines.}
+        
       \resumeItemListEnd
 
 % -----------Multiple Positions Heading-----------
@@ -183,35 +177,39 @@
 %-----------PROJECTS-----------
 \section{Projects}
     \resumeSubHeadingListStart
-            \resumeProjectHeading
-          {\textbf{HoopTuber} $|$ \underline{\href{https://www.hooptuber.com}{hooptuber.com}}}{July 2025 -- Present}
-          \resumeItemListStart
-\resumeItem{Designed event-driven pipeline using FastAPI, Firestore, and Pub/Sub to coordinate video processing and user notifications.}
-            \resumeItem{Integrated Stripe billing with RBAC enforcement at the API layer to control access to premium functionality}
-                        \resumeItem{Built an authenticated upload flow with GCS signed URLs and job state management for scalable video
-                        ingestion.}
-          \resumeItemListEnd
+\resumeProjectHeading
+  {\underline{\textbf{\href{https://www.hooptuber.com}{HoopTuber}}} $|$ \textit{Next.js, FastAPI, Python, TypeScript, Google Cloud, Gemini API, Docker}}{Los Angeles, CA}
+  \resumeItemListStart
+    \resumeItem{Developed and deployed a full-stack basketball video platform, serving \textbf{400+} waitlist signups and \textbf{50+} daily beta users, validating early product-market demand.}
+\resumeItem{Designed and implemented RESTful APIs using \textbf{FastAPI} to handle authentication, user workflows, and job lifecycle management.}
+\resumeItem{Developed a video analysis system using \textbf{Gemini API} and custom computer vision logic to extract basketball events and generate shareable highlight clips; implemented RBAC-based paid subscription tiers with \textbf{Stripe API} to enforce daily processing limits.}
+%\resumeItem{Designed an event-driven video processing pipeline leveraging GCS, Pub/Sub, and Python background workers for asynchronous ingestion, orchestration, and stateful processing at scale.}
+    \resumeItem{Implemented \textbf{CI/CD} pipelines and \textbf{Docker} based deployments to automate builds, testing, and cloud releases across backend and worker services.}
+
+  \resumeItemListEnd
+
           
                         \resumeProjectHeading
-          {\textbf{Cloud-Run Video Encoder} $|$ \underline{\href{https://github.com/chrisalpuerto/cloud-run-ffmpeg}{GitHub}}}{Dec 2025 -- Present}
+    {\textbf{\underline{{\href{https://github.com/chrisalpuerto/cloud-run-ffmpeg}{Cloud Video Encoder}}}} $|$ \textit{Python, FFmpeg, Google Cloud (Cloud Run, GCS, Pub/Sub), Docker}}{Dec 2025 -- Present}
           \resumeItemListStart
-            \resumeItem{Built an FFmpeg media normalization pipeline with Python to convert iPhone HEVC/.MOV to H.264/.MP4, eliminating codec incompatibilities that previously caused analysis failures on 30–40\% of uploads inside \textbf{HoopTuber}, increasing our successful analysis rates up 35\%.}
+            \resumeItem{Developed an FFmpeg-based media normalization pipeline in Python to convert iPhone HEVC/.MOV videos to H.264/.MP4, eliminating codec incompatibilities that caused failures on 30--40\% of uploads and increasing successful analysis rates by \textbf{35\%}, unlocking support for \textbf{50\%+} more users on \textbf{HoopTuber}.}
+
             \resumeItem{Containerized the service with Docker and deployed via GitHub Actions CI/CD, enabling reproducible processing across local and Cloud Run environments while reducing debugging time for corrupted HEVC inputs.}
             
           \resumeItemListEnd
           \resumeProjectHeading
-          {\textbf{Car Infotainment System} $|$ \underline{\href{https://drive.google.com/file/d/1-3CXpdN4ua2bOsBoWWPDHprbmG6dytwZ/view?usp=sharing}{Live Demo}}}{August 2025 - Present}
+          {\textbf{\underline{\href{https://drive.google.com/file/d/1-3CXpdN4ua2bOsBoWWPDHprbmG6dytwZ/view?usp=sharing}{Car Infotainment System}}} $|$ \textit{React, FastAPI, OBD, WebSockets, Mapbox, Java, Docker} }{August 2025 - Present}
           \resumeItemListStart
-            \resumeItem{Worked within a team of 4, leading the backend development of a real-time automotive dashboard using FastAPI, building services for authentication, Spotify control, navigation, and weather integrations}
-            \resumeItem{Engineered a WebSocket streaming layer to broadcast live vehicle telemetry (RPM, speed, temps) from mock generators and real OBD-II hardware to read real ECU data from a physical vehicle with low-latency updates}
+            \resumeItem{Developed a real-time customizable car dashboard within a team of 4 using \textbf{React} for the frontend, while building REST APIs  with \textbf{FastAPI} to handle authentication, Spotify control, navigation, and weather integrations}
+            \resumeItem{Built a WebSocket streaming layer with \textbf{Python} to broadcast live vehicle telemetry (RPM, speed, temp) from mock generators and real OBD-II hardware to read real ECU data from a physical vehicle with low-latency updates}
             \resumeItem{Designed and implemented REST APIs with FastAPI for Mapbox routing, Spotify media control, and user management, with role-based access control and OAuth authentication.}
           \resumeItemListEnd
 
           \resumeProjectHeading
-          {\textbf{Automated Trading System For ETFs} $|$ {\underline{\href{https://github.com/chrisalpuerto/Trading-System-for-ETFs}{GitHub}} }}{Aug 2024 -- Dec 2024}
+          {\textbf{{\underline{\href{https://github.com/chrisalpuerto/Trading-System-for-ETFs}{Trading System For ETFs}}} $|$  }\textit{Python, JavaScript, HTML/CSS, Flask, YFinance API,}}{Aug 2024 -- Dec 2024}
           \resumeItemListStart
-            \resumeItem{Developed an automated trading system for FNGU/FNGD with a backtesting engine simulating trades on a \$100K virtual balance, implementing SMA, Bollinger Bands, and MACD strategies to generate dynamic buy/sell signals}
-            \resumeItem{Built and deployed a full-stack platform with Flask and JavaScript/HTML on Heroku, using the Yahoo Finance API to visualize historical ETF data, custom date ranges, and strategy performance.}
+            \resumeItem{Developed an automated trading system for ETFs (FNGU/FNGD) with a backtesting engine simulating trades on a \$100K virtual balance with \textbf{Python}, implementing SMA, Bollinger Bands, and MACD strategies to generate dynamic buy/sell signals}
+            \resumeItem{Developed and deployed a full-stack platform with \textbf{Flask} and \textbf{JavaScript/HTML} on Heroku, using the Yahoo Finance API to visualize historical ETF data, custom date ranges, and strategy performance.}
             
           \resumeItemListEnd
           

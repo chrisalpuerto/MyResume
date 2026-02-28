@@ -1,2 +1,2 @@
 ## Christopher Alpuerto's Current Resume as of Jan 30, 2026
-![Resume](Public/2026FebUpdateResume.pdf)
+![Resume](Public/PNG2026mChristopherAlpuerto_Resume2.png)
